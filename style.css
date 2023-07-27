@@ -1,0 +1,56 @@
+body {
+  background-color: beige;
+}
+.row {
+  --bs-gutter-x: 0 !important;
+}
+.title-nav {
+  height: 50px;
+  text-align: center;
+  padding-top: 20px;
+  margin-bottom: 20px;
+}
+.components {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  width: min-content;
+  transform: translate(-50%, -50%);
+}
+.component {
+  margin-bottom: 30px;
+}
+.component a {
+  border: 1px solid #0d6efd;
+  border-radius: 5px;
+  background-color: #0d6efd;
+  width: 200px;
+  height: 35px;
+  text-align: center;
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+  margin-left: 10px;
+}
+form {
+  border: 1px solid black;
+  width: 50%;
+  display: block;
+  margin: 20px auto;
+  padding: 20px 10px;
+}
+.form-element {
+  padding-bottom: 20px;
+}
+.error {
+  color: red;
+}
+.success {
+  color: green;
+}
+
+/* Request */
+.border-form {
+  padding: 10px 10px;
+  border: 1px solid black;
+}
